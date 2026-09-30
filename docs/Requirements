@@ -1,0 +1,108 @@
+
+# TravelBookingPanel – Requirements
+
+## REQ-001 – User Registration
+
+The system shall allow a new user to create an account by providing the required First Name, Last Name, Email Address, Password, and Confirm Password, and by selecting the Create Account option.
+
+## REQ-002 – User Login
+
+The system shall allow a registered user to log in by providing a valid Email Address and Password and selecting the Sign In option.
+
+## REQ-003 – Invalid Login
+
+The system shall prevent users from logging in when invalid login credentials are provided and shall display an appropriate error message.
+
+## REQ-004 – Service Navigation
+
+The system shall provide navigation options for Flight, Tour, Stay, Umrah, and Visa services and shall allow the user to access the selected service.
+
+## REQ-005 – Flight Search
+
+The system shall allow the user to search for flights by selecting the trip type (Round Trip or One Way), departure location, destination, departure date, number of passengers, and travel class, and by selecting the Search Flights option.
+
+For a Round Trip search, the system shall allow the user to provide both Departure Date and Return Date.
+
+For a One Way search, the system shall allow the user to search using the Departure Date without requiring a Return Date.
+
+## REQ-006 – My Bookings Summary
+
+The system shall allow the user to view booking summary information including the total number of bookings and available booking and payment status counts.
+
+## REQ-007 – Booking Records and Service Filters
+
+The system shall allow the user to view booking records and filter bookings by available service modules, including Stays, Flights, Tours, and Visa.
+
+## REQ-008 – Booking Details and Filters
+
+The system shall allow the user to view booking details including Invoice, Module, Booking Status, Payment Status, Price, PNR, Booking Date, and available Actions for each booking record.
+
+The system shall allow the user to filter booking records using available criteria such as Module, Booking Status, Payment Status, Price, PNR, and Booking Date.
+
+## REQ-009 – Customer Dashboard
+
+The system shall allow the user to view booking summary information on the Customer Dashboard, including Total Bookings, Confirmed Bookings, Pending Bookings, and Cancelled Bookings.
+
+The system shall allow the user to view recent booking records including Invoice, Module, Booking Status, Payment Status, Price, and Booking Date.
+
+The system shall provide an option to view all bookings and access the Edit Profile option.
+
+## REQ-010 – Profile Management
+
+The system shall allow the user to view and update personal information including Title, First Name, Last Name, Phone Number, Country, State, PO Box, and Address.
+
+The system shall not allow the user to modify the Email Address.
+
+The system shall allow the user to change the password by providing the Current Password, New Password, and Confirm Password.
+
+## REQ-011 – User Logout
+
+The system shall allow the logged-in user to log out of the customer panel by selecting the Logout option and end the current user session.
+
+## REQ-012 – Flight Search Results
+
+The system shall allow the user to view available flight results after performing a flight search, including Airline, Route, Travel Date, Total Fare, Departure Time, Arrival Time, Duration, Number of Stops, and a Book option.
+
+The system shall allow the user to filter flight results by number of stops, price range, and preferred airline.
+
+The system shall provide an option to modify the flight search criteria.
+
+## REQ-013 – Flight Booking Information
+
+The system shall allow the user to provide traveller information required for flight booking, including Gender, Name, Date of Birth, Passport Number, Nationality, Passport Issuance Date, and Passport Expiry Date.
+
+## REQ-014 – Flight Payment Methods and Price Summary
+
+The system shall allow the user to select an available payment method, including Stripe, After_pay, or PayPal.
+
+The system shall allow the user to proceed to payment using the Pay Now option.
+
+The system shall display a price summary including Flight Charges, Taxes & Fees, and Total Amount before payment.
+
+## REQ-015 – Flight Booking Invoice
+
+The system shall allow the user to view a flight booking invoice containing the Invoice Number, Booking Reference, Booking Status, Payment Status, Flight PNR Number, Departure Date, Passenger information, Flight Details, Traveller Information, and Price Summary.
+
+## REQ-016 – Stripe Payment
+
+The system shall allow the user to make payment for a flight booking through the Stripe payment gateway.
+
+The system shall allow the user to select a supported currency and choose an available payment method.
+
+The system shall allow the user to pay using a card without Link or use Link with a saved payment method or a new payment method.
+
+The system shall display the payment amount in the selected currency and provide an option to process the payment.
+
+## REQ-017 – Flight Booking Confirmation
+
+The system shall update the flight Booking Status to Confirmed and the Payment Status to Completed after successful payment.
+
+The system shall display the Booking Reference, Flight PNR Number, Flight Details, Traveller Information, and Price Summary on the booking invoice.
+
+## REQ-018 – Flight Booking Records
+
+The system shall allow the user to view completed flight booking records in My Bookings, including the Booking Reference, Booking Status, Payment Status, Price, PNR, and Booking Date.
+
+## REQ-019 – Flight Booking Details
+
+The system shall allow the user to open a flight booking record and view its detailed information, including Invoice, Module, Booking Status, Payment Status, Price, PNR, Booking Date, Flight Details, Traveller Information, and available Actions.

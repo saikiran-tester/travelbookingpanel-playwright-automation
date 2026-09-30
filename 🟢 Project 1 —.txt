@@ -1,0 +1,51 @@
+🟢 Project 1
+
+Application: TravelBookingPanel
+Type: Travel Booking Web Application
+Automation: Playwright + TypeScript
+Test Management: Jira
+Version Control: Git + GitHub
+Reporting: Playwright HTML Report
+CI/CD: GitHub Actions
+Step 1 — Requirements
+
+We'll cover these modules:
+
+Registration
+Login
+Accounts
+Account Details
+Funds Transfer
+Bill Payment
+Transactions
+Logout
+
+
+
+1. Understand Application
+        ↓
+2. Define Project Scope
+        ↓
+3. Requirements
+        ↓
+4. Test Scenarios
+        ↓
+5. Test Cases
+        ↓
+6. Jira Setup
+        ↓
+7. Automation Framework Setup
+        ↓
+8. Write Playwright Tests
+        ↓
+9. Execute Tests
+        ↓
+10. Defect Handling in Jira
+        ↓
+11. Reports
+        ↓
+12. Git + GitHub
+        ↓
+13. GitHub Actions (CI/CD)
+        ↓
+14. Final Project Documentation
