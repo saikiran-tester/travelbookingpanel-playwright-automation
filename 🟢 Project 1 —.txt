@@ -11,13 +11,14 @@ Step 1 — Requirements
 
 We'll cover these modules:
 
-Registration
+Home page
+Flight search
+Hotel search
 Login
-Accounts
-Account Details
-Funds Transfer
-Bill Payment
-Transactions
+Signup
+Customer dashboard
+My Bookings
+Profile
 Logout
 
 
@@ -49,3 +50,6 @@ Logout
 13. GitHub Actions (CI/CD)
         ↓
 14. Final Project Documentation
+
+
+GitHub repository: travelbookingpanel-playwright-automation
