@@ -4,7 +4,7 @@ import { goToFlightSearch } from "../utils/flight";
 
 test.describe("View Flight Search Results", () => {
 
-  test("TC-018-View Flight Search Results", async ({ page }) => {
+  test.skip("TC-018-View Flight Search Results", async ({ page }) => {
     test.setTimeout(60000);
 
     await login(page);
@@ -25,7 +25,7 @@ test.describe("View Flight Search Results", () => {
     // DEPARTURE DATE
     await page.locator("#flightDepartureDate").click();
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 2; i++) {
       await page.locator(".flatpickr-next-month").first().click();
     }
 

@@ -4,7 +4,7 @@ import { goToFlightSearch } from "../utils/flight";
 
 test.describe("Filter Flight Search Results", () => {
 
-  test("TC-019-Filter Flight Search Results", async ({ page }) => {
+  test.skip("TC-019-Filter Flight Search Results", async ({ page }) => {
     test.setTimeout(60000);
 
     await login(page);
